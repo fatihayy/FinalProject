@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Text;
 
 namespace Core.DataAccess
-{
+{   // Dependency Injection = uygulamanın bağlı olduğu akışları dışarıdan enjekte ederek uygulama akışını dinamik olarak değiştiriyoruz.
     //generic constraint
     //class : referans tip
     //IEntity : IEntity olabilir veya IEntity implemente eden bir nesne olabilir
